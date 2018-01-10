@@ -9,11 +9,11 @@ spring:
         active: prod
     datasource:
         dataSourceClassName: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
-        url: jdbc:mysql://mysql-server:3306/securityrat?useUnicode=true&characterEncoding=utf8  #edit according to the DB server and DB name
-        databaseName:
+        url: jdbc:mysql://localhost:3307/securityrat?useUnicode=true&characterEncoding=utf8 #edit according to the DB server and DB name
+        databaseName:securityrat
         serverName:
-        username: securityrat #change to your db user
-        password: mypassword #change to your db password
+        username: root #change to your db user
+        password: toor #change to your db password
         cachePrepStmts: true
         prepStmtCacheSize: 250
         prepStmtCacheSqlLimit: 2048
